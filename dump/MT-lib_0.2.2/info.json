@@ -1,0 +1,11 @@
+{
+	"name": "MT-lib",
+	"version": "0.2.2",
+	"title": "Midnighttigger's Library",
+	"author": "Midnighttigger",
+	"dependencies": [
+	"~ MT-lib-ex"
+	],
+	"description": 'Enhanced definability for orbits of "planet"/"space-location"'s with some library functions as well related to energy consumption and pollution',
+	"factorio_version": "2.0"
+}

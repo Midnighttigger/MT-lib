@@ -1,0 +1,61 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2024-12-31
+  Features:
+    - New thumbnail to show an example of what is possible
+    - orbit.sprite_scale definable to allow for better fine tuning of orbit scaling, default is 1
+  Rework:
+    - Adjustment to circular orbits scaling in order to better align with where the planet is
+    - Description to better follow what the library/mod does
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2024-12-29
+  Fixes:
+    - Fixed MTtrig.Padd for some reason having a typo which had went unoticed
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2024-12-28
+  Features:
+    - Orbital Parameters completly overhauled, you can now define moons, stars, rogue planets and binary/elliptical orbits, etc
+    - Unlandable Space Locations
+    - Many new definable properties for "planet"s and "space-location"s
+    - Sprites appear on the starmap according to orbital parameters
+    - MTbasic.space_dlc
+    - MTtrig.tau
+    - MTtrig.Padd
+    - MTtrig.Psub
+    - MTtrig.Pcc
+    - MTtrig.Cadd
+    - MTtrig.Csub
+    - MTtrig.CmulS
+    - MTtrig.Cmul
+    - MTtrig.Cpc
+    - MTtrig.Tr
+    - MTtrig.Rt
+    - MTtrig.PTp
+    - MTtrig.Ppt
+    - MTsprite.manipulate
+    - MTsprite.manipulateS
+    - MTsprite.add
+  Rework:
+    - Orbital Paths now require sprites but dont worry, graphics/orbits/orbit_image_tutorial.png may have you covered!
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2024-11-12
+  Fixes:
+    - MTenergy.get_mw returning nil because values too small
+  Features:
+    - Changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-11-12
+  Features:
+    - MTbasic.table_contains
+    - MTenergy.get_mw
+    - MTenergy.get_effectivity
+    - MTenergy.get_trueusage
+    - MTenergy.get_usage
+    - MTenergy.get_consumption
+    - MTenergy.boilerassembles
+    - MTpollution.get_pollution
+    - MTpollution.set_pollution

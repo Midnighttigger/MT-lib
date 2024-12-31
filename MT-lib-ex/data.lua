@@ -1,0 +1,1 @@
+require("__MT-lib__.data-before-updates")
