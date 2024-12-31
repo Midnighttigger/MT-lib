@@ -6,6 +6,6 @@
 	"dependencies": [
 	"~ MT-lib-ex"
 	],
-	"description": 'Enhanced definability for orbits of "planet"/"space-location"'s with some library functions as well related to energy consumption and pollution',
+	"description": "Enhanced definability for orbits of planet's/space-location's with some library functions as well related to energy consumption and pollution",
 	"factorio_version": "2.0"
 }
